@@ -7,7 +7,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   color: #333;
 }
 .container {
@@ -274,7 +274,7 @@ ul {
   margin-top: 40px;
 }
 .head-h {
-  font-family: "DM Serif Display";
+  font-family: 'DM Serif Display';
   text-align: center;
   align-items: center;
   padding-bottom: 47px;
@@ -284,56 +284,66 @@ ul {
   letter-spacing: 0.22px;
 }
 .head-sect {
-  background-image: url("./img/Rectangle.webp");
+  background-image: url("./Rectangle.webp");
   background-size: cover;
+  background-color: #F4F0EC;
   background-repeat: no-repeat;
   border-radius: 70px;
-  width: 1200px;
+  width: 1370px;
   height: 675px;
+  margin: 0 auto;
+  margin-left: 75px;
 }
 .header {
-  padding-left: 35px;
+   padding-left: 35px; 
 }
 .ul-h {
-  font-family: "DM Serif Display";
+  font-family: 'DM Serif Display';
   font-size: 25px;
 }
 .head-ul {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   list-style: none;
   align-content: center;
   width: 1200px;
   height: 675px;
-  margin-top: 260px;
+  margin-top: 260px; */
+  display: flex;
+     padding-left: 183px;  
+    list-style: none;
+    margin-left: 0 auto;
  
 }
 .head-li {
-  margin-right: 17px;
+  padding: 27px;
   background-color: white;
   width: 354px;
-  height: 287px;
+  /* height: 350px;  */
+  padding: 40px;
   border-radius: 30px;
+
 }
 .head-p {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.22px;
 }
 .head-p2 {
-  font-family: "Jost";
-  padding-top: 32px;
+  font-family: 'Jost';
+  padding-top: 25px;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.22px;
+  
 }
 .main-ul {
   display: flex;
   list-style: none;
-  padding-left: 90px;
+  padding-left: 90px; 
   padding-top: 140px;
 }
 .main-li {
@@ -341,9 +351,35 @@ ul {
 }
 .head-div {
   padding-top: 103px;
-  width: 1200px;
-  margin: 0px auto;
+  /* width: 1200px;
+  margin: 0px auto; */
 }
+
+.sec-div {
+  display: flex;
+}
+
+.s-div {
+   padding-left: 20px; 
+}
+
+
+
+/* .list-div {
+  padding-left: 31px;
+} 
+
+ main {
+  padding-left: 80px;
+margin-right: 50px;
+}  */
+
+.main-div {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
 * {      margin: 0;   margin: 0;   padding: 0;   box-sizing: border-box; } 
  .head-h {     font-family: 'DM Serif Display';     text-align: center;     align-items: center;     padding-bottom: 47px; font-weight: 400; font-size: 45px; line-height: 58.5px; letter-spacing: 0.22px;     font-family: "DM Serif Display";   text-align: center;   align-items: center;   padding-bottom: 47px;   font-weight: 400;   font-size: 45px;   line-height: 58.5px;   letter-spacing: 0.22px; }
    .head-sect {     background-image: url("./img/Rectangle.webp");
@@ -352,7 +388,7 @@ ul {
      .header {   padding-left: 35px; } 
        .ul-h {     font-family: 'DM Serif Display';     font-size: 25px;            font-family: "DM Serif Display";   font-size: 25px; }  
        .head-ul {     display: flex;     padding-left: 183px;     list-style: none;        display: flex;   justify-content: center;   list-style: none; }  
-       .head-li {     margin-right: 227px;     background-color: white;     width: 354px;     height: 287px;     border-radius: 30px;         margin-right: 17px;   background-color: white;   width: 354px;   height: 287px;   border-radius: 30px; }
+       .head-li {     margin-right: 227px;     background-color: white;     width: 354px;         border-radius: 30px;         margin-right: 17px;   background-color: white;   width: 354px;   height: 287px;   border-radius: 30px; }
          .head-p { font-family: 'Jost'; font-weight: 400; font-size: 18px; line-height: 27px; letter-spacing: 0.22px;   font-family: "Jost";   font-weight: 400;   font-size: 18px;   line-height: 27px;   letter-spacing: 0.22px; }
            .head-p2 {  font-family: 'Jost';  padding-top: 32px; font-weight: 400; font-size: 20px; line-height: 30px; letter-spacing: 0.22px;    font-family: "Jost";   padding-top: 32px;   font-weight: 400;   font-size: 20px;   line-height: 30px;   letter-spacing: 0.22px;   padding-left: 20px;   padding-top: 25.39px; }
              .main-ul {     display: flex;     list-style: none;     padding-left: 90px;     padding-top: 140px;   display: flex;   list-style: none;   padding-left: 90px;   padding-top: 140px; } 
