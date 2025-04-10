@@ -282,6 +282,7 @@ ul {
   font-size: 45px;
   line-height: 58.5px;
   letter-spacing: 0.22px;
+  
 }
 .head-sect {
   background-image: url("./Rectangle.webp");
@@ -309,10 +310,9 @@ ul {
   width: 1200px;
   height: 675px;
   margin-top: 260px; */
-  display: flex;
-     padding-left: 183px;  
+  display: flex; 
     list-style: none;
-    margin-left: 0 auto;
+    margin-left: 55px;
  
 }
 .head-li {
@@ -322,6 +322,7 @@ ul {
   /* height: 350px;  */
   padding: 40px;
   border-radius: 30px;
+  
 
 }
 .head-p {
@@ -338,6 +339,7 @@ ul {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.22px;
+  margin-left: -25px;
   
 }
 .main-ul {
@@ -360,19 +362,19 @@ ul {
 }
 
 .s-div {
-   padding-left: 20px; 
+   padding-left: 12px; 
 }
 
 
 
-/* .list-div {
+ /* .list-div {
   padding-left: 31px;
-} 
+}  */
 
  main {
   padding-left: 80px;
 margin-right: 50px;
-}  */
+}  
 
 .main-div {
   width: 1200px;
@@ -387,12 +389,12 @@ margin-right: 50px;
       background-image: url("./img/Rectangle.webp");   background-size: cover;   background-repeat: no-repeat;   border-radius: 70px;   width: 1200px; height: 675px;     height: 675px; } 
      .header {   padding-left: 35px; } 
        .ul-h {     font-family: 'DM Serif Display';     font-size: 25px;            font-family: "DM Serif Display";   font-size: 25px; }  
-       .head-ul {     display: flex;     padding-left: 183px;     list-style: none;        display: flex;   justify-content: center;   list-style: none; }  
+       /* .head-ul {     display: flex;     padding-left: 183px;     list-style: none;        display: flex;   justify-content: center;   list-style: none; }   */
        .head-li {     margin-right: 227px;     background-color: white;     width: 354px;         border-radius: 30px;         margin-right: 17px;   background-color: white;   width: 354px;   height: 287px;   border-radius: 30px; }
          .head-p { font-family: 'Jost'; font-weight: 400; font-size: 18px; line-height: 27px; letter-spacing: 0.22px;   font-family: "Jost";   font-weight: 400;   font-size: 18px;   line-height: 27px;   letter-spacing: 0.22px; }
            .head-p2 {  font-family: 'Jost';  padding-top: 32px; font-weight: 400; font-size: 20px; line-height: 30px; letter-spacing: 0.22px;    font-family: "Jost";   padding-top: 32px;   font-weight: 400;   font-size: 20px;   line-height: 30px;   letter-spacing: 0.22px;   padding-left: 20px;   padding-top: 25.39px; }
-             .main-ul {     display: flex;     list-style: none;     padding-left: 90px;     padding-top: 140px;   display: flex;   list-style: none;   padding-left: 90px;   padding-top: 140px; } 
-              .main-li {     margin-right: 110px;   margin-right: 110px; }  .head-div {     padding-top: 103px; }   padding-top: 103px;   width: 1200px;   margin: 0px auto; }
+             .main-ul {     display: flex;     list-style: none;     padding-left: -60px;     padding-top: 140px;   display: flex;   list-style: none;   padding-left: 90px;   padding-top: 140px; } 
+              .main-li {     margin-right: 110px;   }  .head-div {     padding-top: 103px; }   padding-top: 103px;   width: 1200px;   margin: 0px auto; }
                 .group-div {   display: flex;   padding-top: 55px;   padding-left: 35px;    }  
                 .group-div2 {   display: flex; } 
                  .group-img {   margin-right: 35px; } 
